@@ -89,3 +89,41 @@ footer {
     margin: auto;
     line-height: 1.8;
 }
+.courses-section {
+    background: #ffffff;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #062a5c;
+    font-size: 25px;
+}
+
+.card p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.card button {
+    margin-top: 15px;
+}

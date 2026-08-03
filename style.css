@@ -349,3 +349,12 @@ footer {
 .level-card p {
     line-height: 1.7;
 }
+.level-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.level-card:hover {
+    color: inherit;
+}

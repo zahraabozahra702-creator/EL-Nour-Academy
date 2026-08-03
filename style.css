@@ -127,3 +127,39 @@ footer {
 .card button {
     margin-top: 15px;
 }
+.about {
+    background: #f8f9fc;
+}
+
+.about > p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.about-box div {
+    background: white;
+    width: 250px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+.about-box i {
+    font-size: 40px;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.about-box h3 {
+    color: #062a5c;
+}

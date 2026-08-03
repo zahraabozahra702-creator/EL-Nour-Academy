@@ -285,3 +285,8 @@ footer {
     padding-top: 15px;
     font-size: 14px;
 }
+.footer-content i {
+    color: #d4af37;
+    margin-left: 8px;
+    font-size: 18px;
+}

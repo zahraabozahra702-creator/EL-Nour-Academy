@@ -237,3 +237,27 @@ footer {
 .instructor-card p {
     line-height: 1.7;
 }
+.register {
+    background: #f8f9fc;
+}
+
+.register form {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register input,
+.register select {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: right;
+}
+
+.register button {
+    margin-top: 10px;
+}

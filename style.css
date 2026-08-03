@@ -358,3 +358,67 @@ footer {
 .level-card:hover {
     color: inherit;
 }
+nav {
+    background: #062a5c;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #d4af37;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.hero {
+    background: #062a5c;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #d4af37;
+}
+
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 260px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+
+.card i {
+    font-size: 45px;
+    color: #d4af37;
+}
+
+
+.card button {
+    background: #062a5c;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+}

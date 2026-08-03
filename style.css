@@ -310,3 +310,42 @@ footer {
     background: #d4af37;
     color: #062a5c;
 }
+.levels {
+    background: #ffffff;
+    text-align: center;
+}
+
+.level-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.level-card {
+    width: 250px;
+    background: #f8f9fc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+    transition: 0.3s;
+}
+
+.level-card:hover {
+    transform: translateY(-10px);
+}
+
+.level-card i {
+    font-size: 45px;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.level-card h3 {
+    color: #062a5c;
+}
+
+.level-card p {
+    line-height: 1.7;
+}

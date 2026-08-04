@@ -422,3 +422,55 @@ nav a {
     padding: 12px 25px;
     border-radius: 8px;
 }
+.hero {
+    min-height: 500px;
+    background: linear-gradient(
+    rgba(6,42,92,.85),
+    rgba(6,42,92,.85)
+    ),
+    url("../images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+
+.hero-content {
+    max-width: 800px;
+}
+
+
+.hero h1 {
+    font-size: 55px;
+    color: #d4af37;
+}
+
+
+.hero h2 {
+    font-size: 35px;
+}
+
+
+.hero p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+.hero-buttons a {
+    display: inline-block;
+    margin: 15px;
+    padding: 14px 30px;
+    background: #d4af37;
+    color: #062a5c;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
